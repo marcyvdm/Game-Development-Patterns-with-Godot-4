@@ -1,6 +1,6 @@
 [gd_scene load_steps=24 format=3 uid="uid://btdmowk762lt6"]
 
-[ext_resource type="Script" path="res://Objects/Bomb/Bomb.gd" id="1_h6cbi"]
+[ext_resource type="Script" uid="uid://cse6jmpsmtjrq" path="res://Objects/Bomb/Bomb.gd" id="1_h6cbi"]
 [ext_resource type="Texture2D" uid="uid://m582f7k7i3v1" path="res://Assets/Kings and Pigs/09-Bomb/Boooooom (52x56).png" id="1_xvrdk"]
 [ext_resource type="Texture2D" uid="uid://bdk5uvx6opexj" path="res://Assets/Kings and Pigs/09-Bomb/Bomb Off.png" id="2_0kr7n"]
 [ext_resource type="Texture2D" uid="uid://cc0hhce3sr4lt" path="res://Assets/Kings and Pigs/09-Bomb/Bomb On (52x56).png" id="3_xkqxk"]
@@ -241,8 +241,8 @@ tracks/5/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_0c7lj"]
 _data = {
-"RESET": SubResource("Animation_c2gw0"),
-"explode": SubResource("Animation_al83d")
+&"RESET": SubResource("Animation_c2gw0"),
+&"explode": SubResource("Animation_al83d")
 }
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_u38js"]

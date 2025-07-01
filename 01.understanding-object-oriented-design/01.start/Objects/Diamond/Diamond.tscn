@@ -1,6 +1,6 @@
 [gd_scene load_steps=17 format=3 uid="uid://c80fci1r5e5lj"]
 
-[ext_resource type="Script" path="res://Objects/Diamond/Diamond.gd" id="1_b3oxm"]
+[ext_resource type="Script" uid="uid://148uduvqjfg7" path="res://Objects/Diamond/Diamond.gd" id="1_b3oxm"]
 [ext_resource type="Texture2D" uid="uid://h0o7dw73opgc" path="res://Assets/Kings and Pigs/12-Live and Coins/Big Diamond Idle (18x14).png" id="1_fumts"]
 [ext_resource type="PackedScene" uid="uid://bqpj06nn7ioem" path="res://Recipes/InteractiveArea2D/InteractiveArea2D.tscn" id="2_nd4ue"]
 

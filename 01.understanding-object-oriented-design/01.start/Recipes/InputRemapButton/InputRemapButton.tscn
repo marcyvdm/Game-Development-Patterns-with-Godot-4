@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://cie0d61lvqb1v"]
 
-[ext_resource type="Script" path="res://Recipes/InputRemapButton/InputRemapButton.gd" id="1_mo2am"]
+[ext_resource type="Script" uid="uid://dj0o5yp6dvu5y" path="res://Recipes/InputRemapButton/InputRemapButton.gd" id="1_mo2am"]
 [ext_resource type="FontFile" uid="uid://fbxdyn186ebu" path="res://Interface/Fonts/Kenney Thick.ttf" id="1_n5ro7"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hlo7q"]

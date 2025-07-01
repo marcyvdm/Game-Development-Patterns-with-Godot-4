@@ -1,13 +1,13 @@
-[gd_scene load_steps=42 format=3]
+[gd_scene load_steps=42 format=3 uid="uid://dedtt5djtv36f"]
 
-[ext_resource type="Texture2D" path="res://Assets/Kings and Pigs/02-King Pig/Attack (38x28).png" id="1_3w3xq"]
-[ext_resource type="Texture2D" path="res://Assets/Kings and Pigs/02-King Pig/Dead (38x28).png" id="2_yu4rd"]
-[ext_resource type="Texture2D" path="res://Assets/Kings and Pigs/02-King Pig/Fall (38x28).png" id="3_kqo0w"]
-[ext_resource type="Texture2D" path="res://Assets/Kings and Pigs/02-King Pig/Ground (38x28).png" id="4_rev7x"]
-[ext_resource type="Texture2D" path="res://Assets/Kings and Pigs/02-King Pig/Hit (38x28).png" id="5_qh8bk"]
-[ext_resource type="Texture2D" path="res://Assets/Kings and Pigs/02-King Pig/Idle (38x28).png" id="6_dkjdu"]
-[ext_resource type="Texture2D" path="res://Assets/Kings and Pigs/02-King Pig/Jump (38x28).png" id="7_wuc1b"]
-[ext_resource type="Texture2D" path="res://Assets/Kings and Pigs/02-King Pig/Run (38x28).png" id="8_yta2e"]
+[ext_resource type="Texture2D" uid="uid://6ueix5gk35mm" path="res://Assets/Kings and Pigs/02-King Pig/Attack (38x28).png" id="1_3w3xq"]
+[ext_resource type="Texture2D" uid="uid://djwyyum774ygc" path="res://Assets/Kings and Pigs/02-King Pig/Dead (38x28).png" id="2_yu4rd"]
+[ext_resource type="Texture2D" uid="uid://j4taptu48td5" path="res://Assets/Kings and Pigs/02-King Pig/Fall (38x28).png" id="3_kqo0w"]
+[ext_resource type="Texture2D" uid="uid://dpox0tavwgm28" path="res://Assets/Kings and Pigs/02-King Pig/Ground (38x28).png" id="4_rev7x"]
+[ext_resource type="Texture2D" uid="uid://bgiklpgv4tkwo" path="res://Assets/Kings and Pigs/02-King Pig/Hit (38x28).png" id="5_qh8bk"]
+[ext_resource type="Texture2D" uid="uid://dwm71mx8uto6j" path="res://Assets/Kings and Pigs/02-King Pig/Idle (38x28).png" id="6_dkjdu"]
+[ext_resource type="Texture2D" uid="uid://4lscsgwp4lm0" path="res://Assets/Kings and Pigs/02-King Pig/Jump (38x28).png" id="7_wuc1b"]
+[ext_resource type="Texture2D" uid="uid://bjs4oc543dbtl" path="res://Assets/Kings and Pigs/02-King Pig/Run (38x28).png" id="8_yta2e"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_p14bn"]
 atlas = ExtResource("1_3w3xq")
@@ -139,42 +139,138 @@ region = Rect2(190, 0, 38, 28)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_vw2dp"]
 animations = [{
-"frames": [SubResource("AtlasTexture_p14bn"), SubResource("AtlasTexture_1m3ww"), SubResource("AtlasTexture_hi8ne"), SubResource("AtlasTexture_kkmo3"), SubResource("AtlasTexture_5484b")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p14bn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1m3ww")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hi8ne")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kkmo3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5484b")
+}],
 "loop": false,
 "name": &"attack",
 "speed": 10.0
 }, {
-"frames": [SubResource("AtlasTexture_43y6x"), SubResource("AtlasTexture_5ch8y"), SubResource("AtlasTexture_lb0vy"), SubResource("AtlasTexture_qadm0")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_43y6x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ch8y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lb0vy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qadm0")
+}],
 "loop": false,
 "name": &"dead",
 "speed": 10.0
 }, {
-"frames": [SubResource("AtlasTexture_5bemv")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5bemv")
+}],
 "loop": false,
 "name": &"fall",
 "speed": 10.0
 }, {
-"frames": [SubResource("AtlasTexture_im0a5")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_im0a5")
+}],
 "loop": false,
 "name": &"ground",
 "speed": 10.0
 }, {
-"frames": [SubResource("AtlasTexture_x6mfl"), SubResource("AtlasTexture_nablj")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x6mfl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nablj")
+}],
 "loop": false,
 "name": &"hit",
 "speed": 10.0
 }, {
-"frames": [SubResource("AtlasTexture_welxk"), SubResource("AtlasTexture_rsq2c"), SubResource("AtlasTexture_f45sq"), SubResource("AtlasTexture_ex04u"), SubResource("AtlasTexture_gf6aq"), SubResource("AtlasTexture_xeus0"), SubResource("AtlasTexture_87grp"), SubResource("AtlasTexture_vmqom"), SubResource("AtlasTexture_31xyp"), SubResource("AtlasTexture_vhnyf"), SubResource("AtlasTexture_qvjgf"), SubResource("AtlasTexture_0idhe")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_welxk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rsq2c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f45sq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ex04u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gf6aq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xeus0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_87grp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vmqom")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_31xyp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vhnyf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qvjgf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0idhe")
+}],
 "loop": true,
 "name": &"idle",
 "speed": 10.0
 }, {
-"frames": [SubResource("AtlasTexture_31wp1")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_31wp1")
+}],
 "loop": false,
 "name": &"jump",
 "speed": 10.0
 }, {
-"frames": [SubResource("AtlasTexture_aaypt"), SubResource("AtlasTexture_7xlc8"), SubResource("AtlasTexture_r0ej1"), SubResource("AtlasTexture_lwghv"), SubResource("AtlasTexture_18kgf"), SubResource("AtlasTexture_gs87c")],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aaypt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7xlc8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r0ej1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lwghv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_18kgf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gs87c")
+}],
 "loop": true,
 "name": &"run",
 "speed": 10.0

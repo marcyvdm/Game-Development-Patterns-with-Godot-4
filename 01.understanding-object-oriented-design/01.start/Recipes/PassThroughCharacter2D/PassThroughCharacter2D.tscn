@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=3 format=3 uid="uid://b7d3bjdho01g6"]
 
 [ext_resource type="PackedScene" uid="uid://c21v2tcsnb6gs" path="res://Recipes/BasicMovingCharacter2D/BasicMovingCharacter2D.tscn" id="1_xybqm"]
-[ext_resource type="Script" path="res://Recipes/PassThroughCharacter2D/PassThroughCharacter2D.gd" id="2_4h72j"]
+[ext_resource type="Script" uid="uid://cob2a0dt030pa" path="res://Recipes/PassThroughCharacter2D/PassThroughCharacter2D.gd" id="2_4h72j"]
 
 [node name="PassThroughCharacter2D" instance=ExtResource("1_xybqm")]
 collision_mask = 3

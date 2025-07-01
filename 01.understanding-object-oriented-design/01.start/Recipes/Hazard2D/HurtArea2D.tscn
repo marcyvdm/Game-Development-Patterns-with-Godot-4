@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://e56m6toaqlmg"]
 
-[ext_resource type="Script" path="res://Recipes/Hazard2D/HurtArea2D.gd" id="1_umlkh"]
+[ext_resource type="Script" uid="uid://dv54bok2fm31q" path="res://Recipes/Hazard2D/HurtArea2D.gd" id="1_umlkh"]
 
 [node name="HurtArea2D" type="Area2D"]
 collision_layer = 4

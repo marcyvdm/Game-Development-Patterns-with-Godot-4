@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://gcevl1ga7u1w"]
 
-[ext_resource type="Script" path="res://Levels/Level.gd" id="1_14qqf"]
+[ext_resource type="Script" uid="uid://bicwhc55ajdkr" path="res://Levels/Level.gd" id="1_14qqf"]
 [ext_resource type="PackedScene" uid="uid://3am3io3b8img" path="res://Areas/InsideCastleTileMap.tscn" id="2_q7pcy"]
 [ext_resource type="PackedScene" uid="uid://b6csjxqmlfpn8" path="res://Actors/KingPig/KingPigPlayer2D.tscn" id="3_va2pq"]
 [ext_resource type="PackedScene" uid="uid://c80fci1r5e5lj" path="res://Objects/Diamond/Diamond.tscn" id="3_xjngc"]
@@ -78,9 +78,9 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_mwo6k"]
 _data = {
-"RESET": SubResource("Animation_d83j8"),
-"fade_in": SubResource("Animation_t0l71"),
-"fade_out": SubResource("Animation_yrlw1")
+&"RESET": SubResource("Animation_d83j8"),
+&"fade_in": SubResource("Animation_t0l71"),
+&"fade_out": SubResource("Animation_yrlw1")
 }
 
 [node name="Level" type="Node2D"]

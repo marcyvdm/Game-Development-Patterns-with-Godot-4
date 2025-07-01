@@ -1,7 +1,7 @@
 [gd_scene load_steps=16 format=3 uid="uid://b6csjxqmlfpn8"]
 
 [ext_resource type="PackedScene" uid="uid://datjjcj0av25b" path="res://Recipes/WallJumpingCharacter2D/WallJumpingCharacter2D.tscn" id="1_8gxmr"]
-[ext_resource type="Script" path="res://Actors/KingPig/KingPigPlayer2D.gd" id="2_5hkq3"]
+[ext_resource type="Script" uid="uid://d07p2a2cg3mpt" path="res://Actors/KingPig/KingPigPlayer2D.gd" id="2_5hkq3"]
 [ext_resource type="SpriteFrames" uid="uid://bavfwgk0ajiq" path="res://Actors/KingPig/KingPigSpriteFrames.tres" id="6_iftfv"]
 [ext_resource type="PackedScene" uid="uid://c7hu570y7fyjc" path="res://Recipes/Hazard2D/VisibleArea2D.tscn" id="7_00d15"]
 [ext_resource type="SpriteFrames" uid="uid://b3kwlknvpnuy5" path="res://Assets/Kings and Pigs/13-Dialogue Boxes/InterrogationSpriteFrames.tres" id="7_jaj1j"]
@@ -194,9 +194,9 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_qu8rq"]
 _data = {
-"RESET": SubResource("Animation_r80vs"),
-"attack": SubResource("Animation_0g7jj"),
-"dead": SubResource("Animation_g2hfk")
+&"RESET": SubResource("Animation_r80vs"),
+&"attack": SubResource("Animation_0g7jj"),
+&"dead": SubResource("Animation_g2hfk")
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_naeet"]

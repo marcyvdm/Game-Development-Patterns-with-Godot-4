@@ -1,6 +1,6 @@
 [gd_scene load_steps=18 format=3 uid="uid://cwqrdhx25jfox"]
 
-[ext_resource type="Script" path="res://Screens/InputRemap/InputRemap.gd" id="1_0dvbk"]
+[ext_resource type="Script" uid="uid://edkxxfscciyx" path="res://Screens/InputRemap/InputRemap.gd" id="1_0dvbk"]
 [ext_resource type="FontFile" uid="uid://fbxdyn186ebu" path="res://Interface/Fonts/Kenney Thick.ttf" id="2_k43wf"]
 [ext_resource type="PackedScene" uid="uid://cie0d61lvqb1v" path="res://Recipes/InputRemapButton/InputRemapButton.tscn" id="2_w6h4d"]
 

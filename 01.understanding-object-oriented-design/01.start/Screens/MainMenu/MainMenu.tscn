@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://bpnmgpokt7ayl"]
 
-[ext_resource type="Script" path="res://Screens/MainMenu/MainMenu.gd" id="1_e1qn7"]
+[ext_resource type="Script" uid="uid://vvmvlyfcbl6o" path="res://Screens/MainMenu/MainMenu.gd" id="1_e1qn7"]
 [ext_resource type="Texture2D" uid="uid://dmd42fyg600l6" path="res://Assets/Kings and Pigs/Kings and Pigs.png" id="1_yntnn"]
 [ext_resource type="FontFile" uid="uid://fbxdyn186ebu" path="res://Interface/Fonts/Kenney Thick.ttf" id="2_tuca1"]
 

@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bo270p7b02xwj"]
 
-[ext_resource type="PackedScene" path="res://Objects/MovingPlatform/MovingPlatform2D.tscn" id="1_w6c8u"]
+[ext_resource type="PackedScene" uid="uid://d12x4a3let2xu" path="res://Objects/MovingPlatform/MovingPlatform2D.tscn" id="1_w6c8u"]
 
 [node name="PathFollowPlatform2D" type="PathFollow2D"]
 rotates = false

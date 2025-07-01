@@ -1,6 +1,6 @@
 [gd_scene load_steps=39 format=3 uid="uid://co68v6mfnhdj1"]
 
-[ext_resource type="Script" path="res://Actors/CratePig/CratePig.gd" id="1_o38ww"]
+[ext_resource type="Script" uid="uid://cni3h7g7no6ip" path="res://Actors/CratePig/CratePig.gd" id="1_o38ww"]
 [ext_resource type="Texture2D" uid="uid://dqpcayp46qg6s" path="res://Assets/Kings and Pigs/06-Pig Hide in the Box/Fall (26x20).png" id="1_q7yp8"]
 [ext_resource type="Texture2D" uid="uid://n7la0lkikrtm" path="res://Assets/Kings and Pigs/06-Pig Hide in the Box/Ground (26x20).png" id="2_ib30u"]
 [ext_resource type="Texture2D" uid="uid://bdnwd5jwty4oa" path="res://Assets/Kings and Pigs/06-Pig Hide in the Box/Jump (26x20).png" id="3_k3inl"]
@@ -616,11 +616,11 @@ tracks/6/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_2qlvf"]
 _data = {
-"RESET": SubResource("Animation_et5bt"),
-"break": SubResource("Animation_d80mu"),
-"hit": SubResource("Animation_kgbud"),
-"jump": SubResource("Animation_vp16i"),
-"look": SubResource("Animation_chtq1")
+&"RESET": SubResource("Animation_et5bt"),
+&"break": SubResource("Animation_d80mu"),
+&"hit": SubResource("Animation_kgbud"),
+&"jump": SubResource("Animation_vp16i"),
+&"look": SubResource("Animation_chtq1")
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8rhla"]

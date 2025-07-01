@@ -1,7 +1,7 @@
 [gd_scene load_steps=21 format=3 uid="uid://trvjobk3jg3t"]
 
 [ext_resource type="Texture2D" uid="uid://dln58hdvjoj6q" path="res://Assets/Kings and Pigs/08-Box/Idle.png" id="1_78fl8"]
-[ext_resource type="Script" path="res://Objects/Crate/Crate.gd" id="1_wpdqv"]
+[ext_resource type="Script" uid="uid://do1xx1rceoixo" path="res://Objects/Crate/Crate.gd" id="1_wpdqv"]
 [ext_resource type="Texture2D" uid="uid://doss0kkuln6me" path="res://Assets/Kings and Pigs/08-Box/Box Pieces 2.png" id="2_awegd"]
 [ext_resource type="Texture2D" uid="uid://i0sucw38laam" path="res://Assets/Kings and Pigs/08-Box/Box Pieces 3.png" id="3_c7mrk"]
 [ext_resource type="Texture2D" uid="uid://d1hskwupnd6vy" path="res://Assets/Kings and Pigs/08-Box/Box Pieces 1.png" id="4_bjhnp"]
@@ -241,9 +241,9 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_17jms"]
 _data = {
-"RESET": SubResource("Animation_1y5yv"),
-"break": SubResource("Animation_s3mjd"),
-"hit": SubResource("Animation_7vwhq")
+&"RESET": SubResource("Animation_1y5yv"),
+&"break": SubResource("Animation_s3mjd"),
+&"hit": SubResource("Animation_7vwhq")
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b2hic"]
